@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    padding: 0px 100px;
+    background: #131F3A;
+    justify-content: space-between;
+    line-height: 60px;
+    align-items: center;
+}
+header ul li{
+    margin-right: 10px;
+    display: inline-block;
+}
+
+header ul li a{
+    font-weight: 500;
+}
+
+header ul li a.active{
+    color: #ff4f7b;
+}
+
+/* banner section start */
+
+.banner{
+    width: 100%;
+    height: 650px;
+    color: #fff;
+    padding: 0px 125px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/banner.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.banner h1{
+    position: absolute;
+    font-size: 50px;
+    top: 100px;
+    font-weight: normal;
+}
+
+.banner h2{
+    position: absolute;
+    font-size: 30px;
+    top:300px;
+}
+
+.banner form{
+    position: absolute;
+    bottom: 50px;
+    width: 83%;
+    height: 100px;
+    background: #5C327A;
+    padding: 0px 10px;
+    display: flex;
+}
+
+.banner form button{
+    width: 90px;
+    height: 25px;
+    color:#fff;
+    border: none;
+    background:#43066f; 
+    font-weight: 500;
+}
+
+.banner form button.active
+{
+    background: #FC2D48;
+}
+
+.banner form label{
+    display: none;
+}
+
+.banner form .searchForm
+{
+    margin-top: 8px;
+}
+
+.banner form .searchForm input,
+.banner form .searchForm select
+{
+    width: 180px;
+    height: 35px;
+    margin-right: 5px;
+}
+
+.banner form button.smt
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+   margin-top: 5px;
+    margin-left: 100px;
+    background: #FC2D48;
+}
+
+.banner form .bottombtn{
+    margin-top: 5px;
+}
+
+
+ .banner form .bottombtn label{
+      display: contents;
+}
+
+.banner form .bottombtn{
+    display: flex;
+    color: #fff;
+}
+
+.banner form .bottombtn select,
+.banner form .bottombtn input
+{
+    background: #5C327A;
+    border: none;
+    color: #fff;
+    margin-left: 8px;
+} 
+/* banner section end */
+/* fun section start */
+.fun{
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/monument-valley11.jpg);
+}
+
+.fun h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.fun .box{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.fun .box div{
+   width: 140px;
+   height: 140px;
+   background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+   margin: 30px;
+   justify-content: space-between; 
+   color: #fff;  
+}
+
+.fun .box div p{
+    padding: 20px 40px 0px 40px;
+}
+
+
+/* fun section end */
+
+/* newslatter section start */
+.newslatter{
+    height: 330px;
+    width: 100%;
+    background: linear-gradient(rgba(80, 68, 108, 0.5),rgba(80, 68, 108, 0.5)),url(../img/airoplan1.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    color:#fff;
+}
+
+.newslatter h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 120px 80px 10px 700px;
+}
+
+.newslatter p{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 80px 15px 600px;
+    text-align: center;
+}
+
+.newslatter form{
+    padding: 15px 80px 20px 600px;
+}
+
+.newslatter form label{
+    display: none;
+}
+
+.newslatter form input{
+    width: 700px;
+    height: 40px;
+    background:none;
+    border: 1px solid #fff;
+    border-width: 3px;
+}
+
+.newslatter form button{
+    background: #fff;
+    color: #000;
+    width: 120px;
+    height: 42px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+/* newslatter section end */
+
+/* destination section start */
+   .destination{
+      width: 100%;
+      height: auto;
+      color: #fff;
+      padding: 50px 125px;
+      background: #1f172f;
+      
+   }
+
+   .destination ul{
+     
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    grid-template-rows: 400px 400px;
+    grid-gap: 30px;
+   }
+
+   .destination ul li{
+    list-style: none;
+    border-radius: 5px;
+    text-align: center;
+    backkground:#fff;
+    border: 5px solid #fff;
+   }
+
+  .destination h4{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+  } 
+
+ 
+
+  .destination .box{
+    display: grid;
+    width: 200px;
+    height: 120px;
+    
+    background: #fff;
+    border: #ec0d0d;
+  }
+/* destination section end */

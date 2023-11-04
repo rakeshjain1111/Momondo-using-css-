@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./assest/css/style.css">
+</head>
+
+<body>
+    <!-- Header section start -->
+    <header>
+        <ul>
+            <li>
+                <a href="index.html">
+                    <img src="./assest/img/logo copy.png" alt="momendo" height="32px" width="90px"
+                        style="padding-top: 10px;">
+                </a>
+            </li>
+            <li><a href="javascript.void()" class="active">Flight</a></li>
+            <li><a href="javascript.void()">Hotel</a></li>
+            <li><a href="javascript.void()">Car Hire</a></li>
+            <li><a href="javascript.void()">Trip Finder</a></li>
+            <li><a href="javascript.void()">Inspiration</a></li>
+        </ul>
+        <ul>
+            <li>
+                <a href="javascript.void()">
+                    <img src="./assest/img/flag.hpg.jpg" alt="" height="20px" width="20px" style="padding-top: 9px;">
+                    English
+                </a>
+            </li>
+            <li><a href="javascript.void()">Log in</a></li>
+        </ul>
+    </header>
+    <!-- Header section end -->
+    <!-- banner section start -->
+    <section class="banner">
+        <h1>"The best place to find<br>the cheapest airfares"</h1>
+        <h2>-every single time</h2>
+        <div>
+            <form action="">
+                <div>
+                    <div class="switchButton">
+                        <button type="button" class="active">
+                            <i class="fa-solid fa-plane-departure"></i>Flights
+                        </button>
+                        <button type="button">
+                            <i class="fa-solid fa-shop"></i>Hotels
+                        </button>
+                        <button type="button">
+                            <i class="fa-solid fa-car"></i>Cars
+                        </button>
+                    </div>
+                    <div class="searchForm">
+                        <label for="origin-city">Origin-City</label>
+                        <input type="text" name="origin-city" id="" placeholder="Enter origin-city">
+
+                        <span><i class="fa-solid fa-arrow-right-arrow-left"
+                                style="color: aqua; margin-right: 5px;"></i></span>
+
+                        <label for="destination-city">Destination-City</label>
+                        <input type="text" name="destination-city" id="" placeholder="Enter destination-city">
+
+                        <label for="date">Start-Date</label>
+                        <input type="date" name="start-date" id="" placeholder="start-date">
+
+                        <label for="end-date">End-Date</label>
+                        <input type="date" name="end-date" id="" placeholder="end-date">
+
+                        <label for="passenger">Select Passenger</label>
+                        <select name="passenger" id="passenger">
+                            <option selected>Select Passenger</option>
+                            <option value="1 pass">1 Passenger</option>
+                            <option value="2 pass">2 Passenger</option>
+                            <option value="3 pass">3 Passenger</option>
+                            <option value="4 pass">4 Passenger</option>
+                            <option value="4 pass">5 Passenger</option>
+                        </select>
+                    </div>
+                    <div class="bottombtn">
+                        <label for="triptype"><i class="fa-brands fa-dribbble"></i>Trip Type</label>
+                        <select name="triptype" id="">
+                            <option selected>Single Trip</option>
+                            <option value="1 pass">Return Trip</option>
+                        </select>
+
+                        <label for="TicketClass"><i class="fa-solid fa-ticket"></i>Ticket Class</label>
+                        <select name="ticketclass" id="">
+                            <option selected>Economy</option>
+                            <option value="1 pass">Business</option>
+                        </select>
+
+                        <input type="checkbox" id="directFlight" name="directFlight" value="directFlight">
+                        <label for="vehicle1">Direct Flight Only</label>
+
+                        <input type="checkbox" id="nearAirports" name="nearAirports" value="directFlight">
+                        <label for="vehicle1">Include Nearby Airports</label>
+                    </div> 
+                </div>
+        <div>
+            <button type="submit" class="smt">Search</button>
+        </div>
+        </form>
+        </div>
+    </section>
+    <!-- banner section end -->
+    
+    <!-- fun section start -->
+    <section class="fun">
+        <h3>SOME FUN WE COVERED</h3>
+        <div class="box">
+            <div>
+                <p><i class="fa-solid fa-bicycle faws" style="height: 30px; width: 40px;"></i><br>5670 M</p><br>
+                <h6>CYCLING TRACK</h6>
+            </div>
+            <div>
+                <p><i class="fa-solid fa-people-arrows" style="height: 30px; width: 40px; "></i><br>5670 M</p><br>
+                <h6>CYCLING TRACK</h6>
+            </div>
+            <div>
+                <p><i class="fa-solid fa-person-hiking"  style="height: 30px; width: 40px;"></i><br>5670 M</p><br>
+                <h6>CYCLING TRACK</h6>
+            </div>
+            <div>
+                <p><i class="fa-solid fa-bicycle faws" style="height: 30px; width: 40px;"></i><br>5670 M</p><br>
+                <h6>CYCLING TRACK</h6>
+            </div>
+            <div>
+                <p><i class="fa-solid fa-bicycle faws" style="height: 30px; width: 40px;"></i><br>5670 M</p><br>
+                <h6>CYCLING TRACK</h6>
+            </div>
+            <div>
+                <p><i class="fa-solid fa-bicycle faws" style="height: 30px; width: 40px;"></i><br>5670 M</p><br>
+                <h6>CYCLING TRACK</h6></div>
+
+        </div>
+    </section>
+    <!-- fun section end -->
+    <!-- newslatter section start -->
+       <section class="newslatter">
+          <h3>suscribe for our travel newslatters</h3>
+          <p>join our community of over 300.000 global readers who receive emails filled with news,<br>promotions,and other good stuff from G Adventure</p>
+          <form action="">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="">
+            <button type="submit">SEARCH</button>
+          </form>
+       </section>
+    <!-- newslatter section end -->
+
+    <!-- destination section start -->
+       <section class="destination">
+        <h4>popular destinations</h4>
+            <ul>
+                <li>
+                    <div class="box"></div>
+                </li>
+                <li>
+                    <div class="box"></div>
+                </li>
+                <li>
+                    <div class="box"></div>
+                </li>
+                <li>
+                    <div class="box"></div>
+                </li>
+                <li>
+                    <div class="box"></div>
+                </li>
+                <li>
+                    <div class="box"></div>
+                </li>
+                <li>
+                    <div class="box"></div>
+                </li>
+                <li>
+                    <div class="box"></div>
+                </li>
+            </ul>
+            
+        </section>
+    <!-- destination section end -->
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src="./assest/js/script.js"></script>
+</body>
+
+</html>
